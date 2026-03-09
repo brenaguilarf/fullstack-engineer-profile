@@ -1,10 +1,11 @@
 # Portafolio Profesional – Full Stack Developer
+
 # Investigación de Ofertas Laborales
-Para definir el perfil profesional objetivo, se analizaron **5 ofertas laborales reales** obtenidas de portales de empleo como LinkedIn Jobs y Amazon Jobs.  
 
 # Oferta Laboral 1
 **Empresa:** Google  
 **Puesto:** Senior Software Engineer – Full Stack (Google Cloud Platform)
+https://www.linkedin.com/jobs/view/senior-software-engineer-full-stack-google-cloud-platform-at-google-4379443272/
 
 ### Tecnologías requeridas
 - Go
@@ -42,6 +43,7 @@ Para definir el perfil profesional objetivo, se analizaron **5 ofertas laborales
 # Oferta Laboral 2
 **Empresa:** Google  
 **Puesto:** Software Engineer III – Full Stack (Android / Chrome)
+https://www.linkedin.com/jobs/view/software-engineer-iii-full-stack-android-at-google-4380675486/
 
 ### Tecnologías requeridas
 
@@ -77,6 +79,7 @@ Para definir el perfil profesional objetivo, se analizaron **5 ofertas laborales
 # Oferta Laboral 3
 **Empresa:** Amazon  
 **Puesto:** Full Stack Software Engineer – Interests AI
+https://www.amazon.jobs/es/jobs/3184873/full-stack-software-engineer-interests-ai-corecx?utm
 
 ### Tecnologías requeridas
 
@@ -111,6 +114,7 @@ Para definir el perfil profesional objetivo, se analizaron **5 ofertas laborales
 # Oferta Laboral 4
 **Empresa:** IBM  
 **Puesto:** Full Stack Developer
+https://www.linkedin.com/jobs/view/fullstack-developer-at-ibm-4361452039/
 
 ### Tecnologías requeridas
 
@@ -146,6 +150,7 @@ Para definir el perfil profesional objetivo, se analizaron **5 ofertas laborales
 # Oferta Laboral 5
 **Empresa:** Microsoft  
 **Puesto:** Software Engineer – Full Stack
+https://www.linkedin.com/jobs/view/software-engineering-ic2-at-microsoft-4381455092/
 
 ### Tecnologías requeridas
 
@@ -178,11 +183,8 @@ Para definir el perfil profesional objetivo, se analizaron **5 ofertas laborales
 - Colaborar con equipos de producto y diseño
 - Mejorar la experiencia del usuario
 
----
 
 # Patrones Comunes Identificados
-
-Después de analizar las 5 ofertas laborales, se identificaron varios patrones comunes en los requisitos solicitados por empresas tecnológicas internacionales.
 
 ## Tecnologías más solicitadas
 
@@ -222,8 +224,6 @@ Después de analizar las 5 ofertas laborales, se identificaron varios patrones c
 - Mantener y mejorar sistemas existentes
 - Construir software escalable
 
----
-
 # Perfil Profesional Objetivo
 
 A partir del análisis de las ofertas laborales, el perfil profesional objetivo definido es **Full Stack Developer** enfocado en el desarrollo de aplicaciones web modernas y escalables para empresas tecnológicas multinacionales.
@@ -233,14 +233,15 @@ Este perfil combina el desarrollo de interfaces de usuario (frontend) con la ló
 
 # Justificación del Enfoque del Sitio Web
 
-El sitio web desarrollado en este proyecto representa un **portafolio profesional orientado a una postulación ficticia para un puesto de Full Stack Developer en una empresa tecnológica internacional**.
+El sitio web desarrollado en este proyecto representa un **portafolio profesional orientado a una postulación ficticia para un puesto de Full Stack Developer en una empresa tecnológica internacional como Google o Microsoft**.
 
 El objetivo del sitio es mostrar:
 
-- Perfil profesional
-- Habilidades técnicas
-- Proyectos
-- Información de contacto
+- Perfil profesional  
+- Habilidades técnicas  
+- Certificaciones estratégicas  
+- Proyectos desarrollados  
+- Información de contacto  
 Este enfoque permite demostrar las competencias necesarias para ingresar al mercado laboral tecnológico.
 
 # Diferenciadores Clave
@@ -251,29 +252,18 @@ A partir del análisis del mercado laboral se identificaron dos diferenciadores 
 
 El dominio de ambos idiomas permite colaborar con equipos internacionales y acceder a oportunidades laborales en empresas globales.
 
-### Enfoque Full Stack Integral
+### Preparación orientada a tecnologías cloud
 
-La capacidad de trabajar tanto en frontend como en backend permite comprender el desarrollo completo de una aplicación y aportar soluciones más eficientes.
+El perfil incluye una **ruta de certificación estratégica** en plataformas utilizadas por empresas tecnológicas líderes como **Microsoft Azure, Amazon Web Services, Google Cloud y Oracle**, lo que demuestra preparación para desarrollar soluciones modernas basadas en infraestructura cloud.
 
 # Diseño del Sitio Web
 
 El diseño del portafolio fue realizado utilizando **Figma**, donde se desarrollaron prototipos para:
-
-- Versión Desktop
-- Versión Mobile
 
 **Enlace al diseño en Figma:**  
 https://www.figma.com/make/ZoVXnWYRrAwlQGIwcCpGiy/Professional-Developer-Portfolio?t=lnUcknEL0Wwxchfx-1
 
 # Sitio Web Publicado
 
-El sitio web fue desarrollado utilizando:
-
-- HTML5
-- CSS3
-- JavaScript 
-
-y publicado utilizando **GitHub Pages**.
-
 **Enlace al sitio web publicado:**  
-(Aquí debes pegar tu enlace de GitHub Pages)
+https://brenaguilarf.github.io/fullstack-engineer-profile/
