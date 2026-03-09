@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professional Developer Portfolio</title>
+  <meta
+    name="description"
+    content="Professional Full Stack Developer portfolio built with pure HTML, CSS and JavaScript."
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header" id="top">
+    <nav class="nav container">
+      <a href="#home" class="logo">
+        <span class="logo-mark">A</span>
+        <span class="logo-text">Alex Johnson</span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-dark" id="home">
+      <div class="hero-glow hero-glow-left"></div>
+      <div class="hero-glow hero-glow-right"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">I AM WEB DEVELOPER</p>
+
+          <h1>
+            Maximize Your Business
+            Potential with
+            <span class="gradient-text">Custom Web Development</span>
+            Solutions
+          </h1>
+
+          <p class="hero-description">
+            I craft scalable, high-performance web applications that drive real
+            results. From concept to deployment, I combine clean code, modern
+            interfaces and practical problem solving.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Get in Touch</a>
+            <a href="#" class="btn btn-outline">Download CV</a>
+          </div>
+
+          <div class="social-links">
+            <a href="#" aria-label="GitHub">GitHub</a>
+            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            <a href="#" aria-label="Twitter">Twitter</a>
+            <a href="mailto:alex@email.com" aria-label="Email">Email</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-ring"></div>
+
+          <div class="hero-image-card">
+            <img
+              src="images/profile.jpg"
+              alt="Professional developer portrait"
+            />
+          </div>
+
+          <div class="floating-card floating-card-left">
+            <strong>30+</strong>
+            <span>Happy Clients</span>
+          </div>
+
+          <div class="floating-card floating-card-right">
+            <strong>130+</strong>
+            <span>Projects Done</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img src="images/about.jpg" alt="Developer working on a laptop" />
+        </div>
+
+        <div class="about-content">
+          <p class="section-tag">About Me</p>
+          <h2>
+            A Full Stack
+            <span class="gradient-text">Web Developer</span>
+          </h2>
+          <p>
+            I am a passionate developer focused on building modern, responsive
+            and user-friendly digital experiences. I enjoy solving problems,
+            creating clean interfaces and connecting frontend design with
+            backend functionality.
+          </p>
+          <p>
+            My goal is to contribute to high-impact projects in international
+            technology companies, combining technical skills, creativity and
+            continuous learning.
+          </p>
+
+          <a href="#contact" class="btn btn-primary">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Technical Skills</p>
+          <h2>My <span class="gradient-text">Skills</span></h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>Responsive Design</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Backend</h3>
+            <ul>
+              <li>Node.js</li>
+              <li>REST APIs</li>
+              <li>Databases</li>
+              <li>Authentication Basics</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Tools</h3>
+            <ul>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Figma</li>
+              <li>VS Code</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="progress-grid">
+          <div class="progress-item">
+            <div class="progress-top">
+              <span>HTML5 / CSS3</span>
+              <span>95%</span>
+            </div>
+            <div class="progress-bar"><span style="width: 95%"></span></div>
+          </div>
+
+          <div class="progress-item">
+            <div class="progress-top">
+              <span>JavaScript</span>
+              <span>90%</span>
+            </div>
+            <div class="progress-bar"><span style="width: 90%"></span></div>
+          </div>
+
+          <div class="progress-item">
+            <div class="progress-top">
+              <span>Node.js / APIs</span>
+              <span>85%</span>
+            </div>
+            <div class="progress-bar"><span style="width: 85%"></span></div>
+          </div>
+
+          <div class="progress-item">
+            <div class="progress-top">
+              <span>Databases</span>
+              <span>80%</span>
+            </div>
+            <div class="progress-bar"><span style="width: 80%"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Recent Work</p>
+          <h2>My <span class="gradient-text">Portfolio</span></h2>
+        </div>
+
+        <div class="cards-grid">
+          <article class="project-card">
+            <img src="images/project1.jpg" alt="E-commerce platform project" />
+            <div class="card-content">
+              <h3>E-commerce Platform</h3>
+              <p>
+                Online store with product catalog, shopping cart and a clean,
+                modern user interface.
+              </p>
+              <a href="#" class="card-link">Click to Visit</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="images/project2.jpg" alt="Analytics dashboard project" />
+            <div class="card-content">
+              <h3>Analytics Dashboard</h3>
+              <p>
+                Responsive dashboard interface focused on data visualization,
+                KPIs and usability.
+              </p>
+              <a href="#" class="card-link">Click to Visit</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="images/project3.jpg" alt="SaaS web app project" />
+            <div class="card-content">
+              <h3>SaaS Web App</h3>
+              <p>
+                Multi-section web application concept designed for professional
+                product presentation.
+              </p>
+              <a href="#" class="card-link">Click to Visit</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="services">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">What I Offer</p>
+          <h2>My <span class="gradient-text">Services</span></h2>
+        </div>
+
+        <div class="cards-grid services-grid">
+          <article class="service-card">
+            <div class="service-icon">🌐</div>
+            <h3>Web Application</h3>
+            <p>
+              Building scalable and modern web applications tailored to business
+              needs.
+            </p>
+            <a href="#" class="card-link">Learn More</a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">💻</div>
+            <h3>Web Development</h3>
+            <p>
+              Creating responsive websites with clean structure and semantic
+              code.
+            </p>
+            <a href="#" class="card-link">Learn More</a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">📱</div>
+            <h3>App Development</h3>
+            <p>
+              Designing digital products that adapt well to different devices
+              and screens.
+            </p>
+            <a href="#" class="card-link">Learn More</a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">🗄️</div>
+            <h3>Database Management</h3>
+            <p>
+              Structuring data efficiently to support reliable and scalable
+              applications.
+            </p>
+            <a href="#" class="card-link">Learn More</a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">📊</div>
+            <h3>Data Analysis</h3>
+            <p>
+              Turning data into useful information through dashboards and clear
+              reports.
+            </p>
+            <a href="#" class="card-link">Learn More</a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">🎨</div>
+            <h3>Web Design</h3>
+            <p>
+              Building interfaces focused on visual quality, accessibility and
+              user experience.
+            </p>
+            <a href="#" class="card-link">Learn More</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Let's Talk</p>
+          <h2>Get In <span class="gradient-text">Touch</span></h2>
+        </div>
+
+        <div class="contact-grid">
+          <article class="contact-card">
+            <h3>Email</h3>
+            <p>alex@email.com</p>
+          </article>
+
+          <article class="contact-card">
+            <h3>GitHub</h3>
+            <p>github.com/alexjohnson</p>
+          </article>
+
+          <article class="contact-card">
+            <h3>LinkedIn</h3>
+            <p>linkedin.com/in/alexjohnson</p>
+          </article>
+
+          <article class="contact-card">
+            <h3>Location</h3>
+            <p>Remote / International</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <h2>Alex Johnson</h2>
+      <p>© 2026 Alex Johnson. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
