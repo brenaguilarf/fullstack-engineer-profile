@@ -117,7 +117,7 @@ ul {
   align-items: center;
   gap: 0.75rem;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .logo-mark {
@@ -128,6 +128,7 @@ ul {
   place-items: center;
   background: var(--gradient);
   color: var(--white);
+  flex-shrink: 0;
 }
 
 .nav-links {
@@ -189,7 +190,6 @@ ul {
   position: absolute;
   border-radius: 50%;
   pointer-events: none;
-  filter: blur(10px);
 }
 
 .hero-glow-left {
@@ -229,7 +229,7 @@ ul {
 }
 
 .hero-description {
-  max-width: 36rem;
+  max-width: 38rem;
   color: var(--muted);
   margin-bottom: 2rem;
   font-size: 1.05rem;
@@ -382,7 +382,8 @@ ul {
 .skills-grid,
 .cards-grid,
 .contact-grid,
-.progress-grid {
+.progress-grid,
+.education-grid {
   display: grid;
   gap: 1.5rem;
 }
@@ -395,7 +396,8 @@ ul {
 .skill-card,
 .project-card,
 .service-card,
-.contact-card {
+.contact-card,
+.education-card {
   background: var(--card);
   border: 1px solid var(--card-border);
   border-radius: var(--radius);
@@ -404,14 +406,16 @@ ul {
 
 .skill-card,
 .service-card,
-.contact-card {
+.contact-card,
+.education-card {
   padding: 1.5rem;
 }
 
 .skill-card h3,
 .service-card h3,
 .contact-card h3,
-.project-card h3 {
+.project-card h3,
+.education-card h3 {
   color: var(--white);
   margin-bottom: 0.8rem;
 }
@@ -458,7 +462,7 @@ ul {
 }
 
 .cards-grid {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .project-card {
@@ -469,13 +473,14 @@ ul {
 .project-card:hover,
 .service-card:hover,
 .contact-card:hover,
-.skill-card:hover {
+.skill-card:hover,
+.education-card:hover {
   transform: translateY(-6px);
 }
 
 .project-card img {
   width: 100%;
-  height: 220px;
+  height: 260px;
   object-fit: cover;
 }
 
@@ -485,7 +490,9 @@ ul {
 
 .card-content p,
 .service-card p,
-.contact-card p {
+.contact-card p,
+.education-card p,
+.education-card span {
   color: var(--muted);
 }
 
@@ -493,6 +500,23 @@ ul {
   display: inline-block;
   margin-top: 1rem;
   color: #d8b4fe;
+  font-weight: bold;
+}
+
+.project-list {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  list-style: disc;
+  color: var(--muted);
+}
+
+.project-list li {
+  margin-bottom: 0.4rem;
+}
+
+.project-tech {
+  margin-top: 1rem;
+  color: #c084fc !important;
   font-weight: bold;
 }
 
@@ -512,7 +536,15 @@ ul {
 }
 
 .contact-grid {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.contact-card a:hover {
+  color: #d8b4fe;
+}
+
+.education-grid {
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .footer {
@@ -542,7 +574,8 @@ ul {
   .cards-grid,
   .services-grid,
   .contact-grid,
-  .progress-grid {
+  .progress-grid,
+  .education-grid {
     grid-template-columns: 1fr;
   }
 
@@ -619,4 +652,32 @@ ul {
   .section {
     padding: 4.5rem 0;
   }
+
+  .logo-text {
+    font-size: 0.95rem;
+  }
+}
+.cert-logo{
+  width:70px;
+  margin-bottom:20px;
+  transition:0.3s;
+}
+
+.cert-card:hover .cert-logo{
+  transform:scale(1.1);
+}
+
+.cert-card{
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centra horizontalmente */
+  text-align: center;    /* centra el texto */
+
+  transition: 0.25s ease;
 }
